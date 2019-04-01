@@ -43,10 +43,10 @@ RM = /opt/clion-2018.3.4/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro"
+CMAKE_SOURCE_DIR = "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/depend.make
@@ -59,29 +59,29 @@ include ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/flags.
 
 ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/main.cpp.o: ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/flags.make
 ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/main.cpp.o: ../random_program/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/main.cpp.o"
-	cd "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program/cmake-build-debug" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/random_program.dir/main.cpp.o -c "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/main.cpp.o"
+	cd "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program/cmake-build-debug" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/random_program.dir/main.cpp.o -c "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program/main.cpp"
 
 ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/random_program.dir/main.cpp.i"
-	cd "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program/cmake-build-debug" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program/main.cpp" > CMakeFiles/random_program.dir/main.cpp.i
+	cd "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program/cmake-build-debug" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program/main.cpp" > CMakeFiles/random_program.dir/main.cpp.i
 
 ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/random_program.dir/main.cpp.s"
-	cd "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program/cmake-build-debug" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program/main.cpp" -o CMakeFiles/random_program.dir/main.cpp.s
+	cd "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program/cmake-build-debug" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program/main.cpp" -o CMakeFiles/random_program.dir/main.cpp.s
 
 ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/Interpreter.cpp.o: ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/flags.make
 ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/Interpreter.cpp.o: ../random_program/Interpreter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/Interpreter.cpp.o"
-	cd "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program/cmake-build-debug" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/random_program.dir/Interpreter.cpp.o -c "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program/Interpreter.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/Interpreter.cpp.o"
+	cd "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program/cmake-build-debug" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/random_program.dir/Interpreter.cpp.o -c "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program/Interpreter.cpp"
 
 ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/Interpreter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/random_program.dir/Interpreter.cpp.i"
-	cd "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program/cmake-build-debug" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program/Interpreter.cpp" > CMakeFiles/random_program.dir/Interpreter.cpp.i
+	cd "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program/cmake-build-debug" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program/Interpreter.cpp" > CMakeFiles/random_program.dir/Interpreter.cpp.i
 
 ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/Interpreter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/random_program.dir/Interpreter.cpp.s"
-	cd "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program/cmake-build-debug" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program/Interpreter.cpp" -o CMakeFiles/random_program.dir/Interpreter.cpp.s
+	cd "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program/cmake-build-debug" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program/Interpreter.cpp" -o CMakeFiles/random_program.dir/Interpreter.cpp.s
 
 # Object files for target random_program
 random_program_OBJECTS = \
@@ -95,8 +95,8 @@ random_program_EXTERNAL_OBJECTS =
 ../random_program/cmake-build-debug/random_program: ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/Interpreter.cpp.o
 ../random_program/cmake-build-debug/random_program: ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/build.make
 ../random_program/cmake-build-debug/random_program: ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable random_program"
-	cd "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/random_program.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable random_program"
+	cd "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/random_program.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/build: ../random_program/cmake-build-debug/random_program
@@ -104,10 +104,10 @@ random_program_EXTERNAL_OBJECTS =
 .PHONY : ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/build
 
 ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/clean:
-	cd "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program/cmake-build-debug" && $(CMAKE_COMMAND) -P CMakeFiles/random_program.dir/cmake_clean.cmake
+	cd "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program/cmake-build-debug" && $(CMAKE_COMMAND) -P CMakeFiles/random_program.dir/cmake_clean.cmake
 .PHONY : ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/clean
 
 ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/depend:
-	cd "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro" "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program" "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/cmake-build-debug" "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program/cmake-build-debug" "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program/cmake-build-debug/CMakeFiles/random_program.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest" "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program" "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/cmake-build-debug" "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program/cmake-build-debug" "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program/cmake-build-debug/CMakeFiles/random_program.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : ../random_program/cmake-build-debug/CMakeFiles/random_program.dir/depend
 

@@ -1,0 +1,29 @@
+stages:
+    - build
+    - test
+   #- deploy <--- Not using deploy, so commented out.
+
+before_script:
+    - apt-get -y update
+    - apt-get -y install cmake
+
+build test code:
+    stage: build
+    script:     #Should turn these commands into a shell script
+        - cd random_program_tests
+        - mkdir -p cmake-build-debug
+        - cd cmake-build-debug
+        - cmake ..
+        - make all
+    artifacts:
+        paths:
+            - random_program_tests/cmake-build-debug/random_program_tests
+        when: on_success
+        expire_in: 1 week
+
+test program:
+    stage: test
+    dependencies:
+        - build test code
+    script:
+        - ./random_program_tests

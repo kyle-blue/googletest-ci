@@ -1,4 +1,4 @@
-# Install script for directory: /home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro
+# Install script for directory: /home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program/cmake-build-debug/cmake_install.cmake")
-  include("/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program_tests/cmake-build-debug/cmake_install.cmake")
+  include("/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program/cmake-build-debug/cmake_install.cmake")
+  include("/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program_tests/cmake-build-debug/cmake_install.cmake")
 
 endif()
 
@@ -52,5 +52,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

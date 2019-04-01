@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program" -I/usr/local/include -I/usr/local/lib/gtest -I/usr/local/lib/gmock 
+CXX_INCLUDES = -I"/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program" -I/usr/local/include -I/usr/local/lib/gtest -I/usr/local/lib/gmock 
 

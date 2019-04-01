@@ -1,4 +1,4 @@
-# Install script for directory: /home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program
+# Install script for directory: /home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

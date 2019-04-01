@@ -16,17 +16,17 @@ Stack.tpp
 Stack.hpp
 ../random_program/Stack.hpp
 
-/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program_tests/ValueParameterisedTest.cpp
+/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program_tests/ValueParameterisedTest.cpp
 ValueParameterisedTest.hpp
-/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program_tests/ValueParameterisedTest.hpp
+/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program_tests/ValueParameterisedTest.hpp
 
-/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program_tests/ValueParameterisedTest.hpp
+/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program_tests/ValueParameterisedTest.hpp
 gtest/gtest.h
 -
 type_traits
 -
 Stack.hpp
-/home/kyle/Documents/Workspace/C++/3. Library Testing/googletest 1 - intro/random_program_tests/Stack.hpp
+/home/kyle/Documents/Workspace/C++/3. Library Testing/gitlab-ci---googletest/random_program_tests/Stack.hpp
 
 /usr/local/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h
