@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="googletest_1___intro" targetName="gtest" />
+      <config projectName="googletest_1___intro" targetName="random_program" />
+      <config projectName="googletest_1___intro" targetName="gmock" />
+      <config projectName="googletest_1___intro" targetName="random_program_tests" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7caa8e36-ef8c-48d6-99e5-4c7a02c94a9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest_1___intro.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest_1___intro.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program/Interpreter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/random_program/Interpreter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program/Interpreter.h" beforeDir="false" afterPath="$PROJECT_DIR$/random_program/Interpreter.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program/Stack.h" beforeDir="false" afterPath="$PROJECT_DIR$/random_program/Stack.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program/Stack.tpp" beforeDir="false" afterPath="$PROJECT_DIR$/random_program/Stack.tpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program/cmake-build-debug/CMakeFiles/random_program.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/random_program/cmake-build-debug/CMakeFiles/random_program.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program/cmake-build-debug/random_program.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/random_program/cmake-build-debug/random_program.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/random_program/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program_tests/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/random_program_tests/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program_tests/LinkLibs.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/random_program_tests/LinkLibs.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/random_program_tests" beforeDir="false" afterPath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/random_program_tests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/random_program_tests.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/random_program_tests/cmake-build-debug/random_program_tests.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program_tests/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/random_program_tests/main.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/random_program_tests/Mocking.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-183">
+              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding>
+                <element signature="e#118#142#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/random_program_tests/Mocking.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="24" column="77" lean-forward="true" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/random_program/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/random_program/Stack.h" />
+        <option value="$PROJECT_DIR$/random_program/Stack.tpp" />
+        <option value="$PROJECT_DIR$/random_program/main.cpp" />
+        <option value="$PROJECT_DIR$/random_program/Interpreter.h" />
+        <option value="$PROJECT_DIR$/random_program/Foods.txt" />
+        <option value="$PROJECT_DIR$/random_program/Interpreter.cpp" />
+        <option value="$PROJECT_DIR$/random_program_tests/LinkLibs.cmake" />
+        <option value="$PROJECT_DIR$/random_program_tests/VecFixture.cpp" />
+        <option value="$PROJECT_DIR$/random_program_tests/VecFixture.hpp" />
+        <option value="$PROJECT_DIR$/random_program_tests/TypedTest.cpp" />
+        <option value="$PROJECT_DIR$/random_program_tests/main.cpp" />
+        <option value="$PROJECT_DIR$/random_program_tests/Mocking.hpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/random_program_tests/Mocking.cpp" />
+        <option value="$PROJECT_DIR$/random_program_tests/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/random_program_tests/TypedTest.hpp" />
+        <option value="$PROJECT_DIR$/random_program_tests/ValueParameterisedTest.cpp" />
+        <option value="$PROJECT_DIR$/random_program_tests/ValueParameterisedTest.hpp" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="86" />
+    <option name="y" value="110" />
+    <option name="width" value="1918" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="googletest_1___intro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="googletest 1 - intro" type="47feb1d3:ProjectViewModuleNode" />
+            </path>
+            <path>
+              <item name="googletest_1___intro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="googletest 1 - intro" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="googletest 1 - intro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="googletest_1___intro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="googletest 1 - intro" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="googletest 1 - intro" type="462c0819:PsiDirectoryNode" />
+              <item name="random_program_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/random_program/cmake-build-debug" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Google Test.All in random_program_tests">
+    <configuration name="All in random_program_tests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="googletest_1___intro" TARGET_NAME="random_program_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="googletest_1___intro" RUN_TARGET_NAME="random_program_tests" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackPTest.greg" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="googletest_1___intro" TARGET_NAME="random_program_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="googletest_1___intro" RUN_TARGET_NAME="random_program_tests" TEST_CLASS="StackPTest" TEST_METHOD="greg" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="random_program" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="googletest_1___intro" TARGET_NAME="random_program" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="googletest_1___intro" RUN_TARGET_NAME="random_program">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="random_program_tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="googletest_1___intro" TARGET_NAME="random_program_tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="googletest_1___intro" RUN_TARGET_NAME="random_program_tests">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.random_program" />
+      <item itemvalue="Application.random_program_tests" />
+      <item itemvalue="Google Test.All in random_program_tests" />
+      <item itemvalue="Google Test.StackPTest.greg" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Google Test.StackPTest.greg" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7caa8e36-ef8c-48d6-99e5-4c7a02c94a9a" name="Default Changelist" comment="" />
+      <created>1552990195636</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552990195636</updated>
+      <workItem from="1552990197334" duration="763000" />
+      <workItem from="1552990989416" duration="4596000" />
+      <workItem from="1552999151726" duration="410000" />
+      <workItem from="1553000562279" duration="5650000" />
+      <workItem from="1553011641808" duration="1677000" />
+      <workItem from="1553069522881" duration="77000" />
+      <workItem from="1553096553657" duration="5585000" />
+      <workItem from="1553154761678" duration="2460000" />
+      <workItem from="1553181913640" duration="1482000" />
+      <workItem from="1553187227794" duration="5572000" />
+      <workItem from="1553246481922" duration="11939000" />
+      <workItem from="1553322975005" duration="3097000" />
+      <workItem from="1553337253744" duration="13172000" />
+      <workItem from="1553500207436" duration="37000" />
+      <workItem from="1553541548437" duration="250000" />
+      <workItem from="1553593684655" duration="11570000" />
+      <workItem from="1553670721078" duration="449000" />
+      <workItem from="1553671207797" duration="316000" />
+      <workItem from="1553671559314" duration="8309000" />
+      <workItem from="1553874249157" duration="2054000" />
+      <workItem from="1553927799582" duration="5678000" />
+      <workItem from="1554121299806" duration="104000" />
+      <workItem from="1554122863309" duration="3655000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_random_program_tests - 2019.03.26 at 12h 31m 54s.xml">
+      <configuration name="All in random_program_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_in_random_program_tests - 2019.03.26 at 12h 38m 32s.xml">
+      <configuration name="All in random_program_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_in_random_program_tests - 2019.03.26 at 12h 40m 06s.xml">
+      <configuration name="All in random_program_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_in_random_program_tests - 2019.03.27 at 07h 24m 47s.xml">
+      <configuration name="All in random_program_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_in_random_program_tests - 2019.03.27 at 08h 53m 40s.xml">
+      <configuration name="All in random_program_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_in_random_program_tests - 2019.03.27 at 09h 53m 04s.xml">
+      <configuration name="All in random_program_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_in_random_program_tests - 2019.03.30 at 09h 44m 00s.xml">
+      <configuration name="All in random_program_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_in_random_program_tests - 2019.03.30 at 09h 44m 40s.xml">
+      <configuration name="All in random_program_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_in_random_program_tests - 2019.03.30 at 10h 00m 30s.xml">
+      <configuration name="All in random_program_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_in_random_program_tests - 2019.04.01 at 14h 14m 05s.xml">
+      <configuration name="All in random_program_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="88902000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-2" y="0" width="1924" height="1053" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23052295" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27765727" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32937366" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.3275488" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.40130153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21985058" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21908894" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32937366" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.3275488" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.40130153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.cpp" />
+    <entry file="file://$PROJECT_DIR$/random_program/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeFiles/random_program_tests.dir/build.make">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/gtest/src/gtest.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4421">
+          <caret line="5859" column="32" selection-start-line="5859" selection-start-column="32" selection-end-line="5859" selection-end-column="32" />
+          <folding>
+            <element signature="e#218734#218786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program/Interpreter.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="e#39#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program/Interpreter.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#122#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program/cmake-build-debug/Foods.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtest/gtest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="1521" selection-start-line="1521" selection-end-line="1521" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program/Stack.tpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtest/gtest-param-test.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="468" column="42" selection-start-line="468" selection-start-column="42" selection-end-line="468" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtest/gtest-typed-test.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="321" column="57" lean-forward="true" selection-start-line="321" selection-start-column="57" selection-end-line="321" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gtest/internal/gtest-internal.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-383">
+          <caret line="656" column="7" selection-start-line="656" selection-start-column="7" selection-end-line="656" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program/Stack.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/gmock/gmock.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="60" column="40" lean-forward="true" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program_tests/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program_tests/cmake-build-debug/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program_tests/LinkLibs.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program_tests/VecFixture.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="e#125#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program_tests/VecFixture.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program_tests/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program_tests/TypedTest.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#122#146#0" expanded="true" />
+            <element signature="e#474#486#0" expanded="true" />
+            <element signature="e#827#829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program_tests/TypedTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program_tests/ValueParameterisedTest.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="101" lean-forward="true" selection-start-line="27" selection-start-column="101" selection-end-line="27" selection-end-column="101" />
+          <folding>
+            <element signature="e#148#172#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program_tests/ValueParameterisedTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program_tests/Mocking.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="e#118#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_program_tests/Mocking.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="77" lean-forward="true" selection-start-line="24" selection-start-column="77" selection-end-line="24" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
