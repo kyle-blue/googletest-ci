@@ -15,7 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7caa8e36-ef8c-48d6-99e5-4c7a02c94a9a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_program_tests/LinkLibs.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/random_program_tests/LinkLibs.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../googletest 1 - intro/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../googletest 1 - intro/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../googletest 1 - intro/.idea/dictionaries/kyle.xml" beforeDir="false" />
@@ -202,7 +202,7 @@
         <entry file="file://$PROJECT_DIR$/random_program_tests/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -219,11 +219,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/random_program_tests/LinkLibs.cmake">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
+            <state relative-caret-position="160">
+              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -261,11 +261,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="80">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -303,7 +303,6 @@
         <option value="$PROJECT_DIR$/random_program/Interpreter.h" />
         <option value="$PROJECT_DIR$/random_program/Foods.txt" />
         <option value="$PROJECT_DIR$/random_program/Interpreter.cpp" />
-        <option value="$PROJECT_DIR$/random_program_tests/LinkLibs.cmake" />
         <option value="$PROJECT_DIR$/random_program_tests/VecFixture.hpp" />
         <option value="$PROJECT_DIR$/random_program_tests/TypedTest.cpp" />
         <option value="$PROJECT_DIR$/random_program_tests/main.cpp" />
@@ -316,6 +315,7 @@
         <option value="$PROJECT_DIR$/random_program_tests/ValueParameterisedTest.cpp" />
         <option value="$PROJECT_DIR$/random_program_tests/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/.gitlab-ci.yml" />
+        <option value="$PROJECT_DIR$/random_program_tests/LinkLibs.cmake" />
       </list>
     </option>
   </component>
@@ -335,7 +335,22 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="googletest_1___intro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitlab-ci---googletest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="googletest_1___intro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gitlab-ci---googletest" type="462c0819:PsiDirectoryNode" />
+              <item name="random_program_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -435,7 +450,7 @@
       <workItem from="1554154095751" duration="22000" />
       <workItem from="1554154166731" duration="1466000" />
       <workItem from="1554197490437" duration="115000" />
-      <workItem from="1554206704646" duration="3816000" />
+      <workItem from="1554206704646" duration="4505000" />
     </task>
     <servers />
   </component>
@@ -472,7 +487,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94321000" />
+    <option name="totallyTimeSpent" value="95010000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1924" height="1053" extended-state="6" />
@@ -743,24 +758,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random_program_tests/LinkLibs.cmake">
+    <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="77" selection-start-line="19" selection-start-column="77" selection-end-line="19" selection-end-column="77" />
+        <state relative-caret-position="80">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/random_program_tests/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
+    <entry file="file://$PROJECT_DIR$/random_program_tests/LinkLibs.cmake">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="160">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
         </state>
       </provider>
     </entry>
