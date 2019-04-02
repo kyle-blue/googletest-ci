@@ -7,8 +7,6 @@ before_script:
     - apt-get -y update
     - apt-get -y install gcc
     - apt-get -y install cmake
-    - apt-get -y install cget
-    - cget install google/googletest
 
 build test code:
     stage: build
