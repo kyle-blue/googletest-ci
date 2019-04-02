@@ -5,7 +5,9 @@ stages:
 
 before_script:
     - apt-get -y update
+    - apt-get -y install gcc
     - apt-get -y install cmake
+    - cget install google/googletest
 
 build test code:
     stage: build
