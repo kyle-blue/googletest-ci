@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/random_program.dir/main.cpp.o CMakeFiles/random_program.dir/Interpreter.cpp.o  -o random_program 
