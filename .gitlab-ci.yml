@@ -28,4 +28,4 @@ test program:
     dependencies:
         - build test code
     script:
-        - ./random_program_tests
+        - random_program_tests/cmake-build-debug/random_program_tests
