@@ -20,7 +20,7 @@ TEST(DatabaseTests, getAccountInfo_GetsMeaningfulDataWhenTrue){
         .WillOnce(Return(true));
 
     //Use derived mock class instead of implementation (using polymorphism)
-    std::vector accountInfo = database.getAccountInfo(mdbAccess, "SomeUser", "SomePassword");
+    std::vector<std::string> accountInfo = database.getAccountInfo(mdbAccess, "SomeUser", "SomePassword");
 
     ASSERT_NE(0, accountInfo.size()) << "No account info has been gathered!";
 
