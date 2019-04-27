@@ -4,10 +4,13 @@ stages:
    #- deploy <--- Not using deploy, so commented out.
 
 before_script:
-    - apt-get -y update
-    - apt-get -y install cmake
 
 build test code:
+    tags:
+        - personal
+        - private
+        - shell
+        - specific
     stage: build
     script:     #Should turn these commands into a shell script
         - cd random_program_tests

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="googletest_1___intro" targetName="random_program_tests" />
       <config projectName="googletest_1___intro" targetName="gtest" />
       <config projectName="googletest_1___intro" targetName="random_program" />
       <config projectName="googletest_1___intro" targetName="gmock" />
-      <config projectName="googletest_1___intro" targetName="random_program_tests" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -15,7 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7caa8e36-ef8c-48d6-99e5-4c7a02c94a9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gitlab-ci---googletest (ORIGINAL)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../gitlab-ci---googletest (ORIGINAL)/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,16 +29,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="512">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random_program_tests/VecFixture.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
@@ -57,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random_program_tests/ValueParameterisedTest.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
+            <state relative-caret-position="496">
               <caret line="31" selection-start-line="31" selection-start-column="2" selection-end-line="33" selection-end-column="53" />
             </state>
           </provider>
@@ -78,7 +80,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -98,11 +100,11 @@
         <option value="$PROJECT_DIR$/random_program_tests/Mocking.cpp" />
         <option value="$PROJECT_DIR$/random_program_tests/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/random_program_tests/ValueParameterisedTest.cpp" />
-        <option value="$PROJECT_DIR$/.gitlab-ci.yml" />
         <option value="$PROJECT_DIR$/random_program_tests/main.cpp" />
         <option value="$PROJECT_DIR$/random_program_tests/TypedTest.hpp" />
         <option value="$PROJECT_DIR$/random_program_tests/ValueParameterisedTest.hpp" />
         <option value="$PROJECT_DIR$/random_program_tests/VecFixture.cpp" />
+        <option value="$PROJECT_DIR$/.gitlab-ci.yml" />
       </list>
     </option>
   </component>
@@ -121,28 +123,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="googletest_1___intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="googletest 1 - intro" type="47feb1d3:ProjectViewModuleNode" />
-            </path>
-            <path>
-              <item name="googletest_1___intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="googletest 1 - intro" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="gitlab-ci---googletest (ORIGINAL)" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="googletest_1___intro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="googletest 1 - intro" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="gitlab-ci---googletest (ORIGINAL)" type="462c0819:PsiDirectoryNode" />
-              <item name="random_program_tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,13 +232,11 @@
       <workItem from="1556347668392" duration="220000" />
       <workItem from="1556354219354" duration="715000" />
       <workItem from="1556359776853" duration="32000" />
+      <workItem from="1556360046715" duration="691000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_random_program_tests - 2019.03.27 at 09h 53m 04s.xml">
-      <configuration name="All in random_program_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="All_in_random_program_tests - 2019.03.30 at 09h 44m 00s.xml">
       <configuration name="All in random_program_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
@@ -285,20 +264,23 @@
     <history-entry file="All_in_random_program_tests - 2019.04.27 at 11h 09m 56s.xml">
       <configuration name="All in random_program_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="All_in_random_program_tests - 2019.04.27 at 11h 14m 37s.xml">
+      <configuration name="All in random_program_tests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104832000" />
+    <option name="totallyTimeSpent" value="105523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1924" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26574174" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26894343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27429804" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27321815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -532,13 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/random_program_tests/ValueParameterisedTest.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -548,7 +523,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/random_program_tests/ValueParameterisedTest.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
+        <state relative-caret-position="496">
           <caret line="31" selection-start-line="31" selection-start-column="2" selection-end-line="33" selection-end-column="53" />
         </state>
       </provider>
@@ -567,6 +542,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
