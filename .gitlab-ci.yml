@@ -1,7 +1,7 @@
 stages:
     - build
     - test
-   #- deploy <--- Not using deploy, so commented out.
+   #- deploy <--- Not using deploy, so commented out
 
 before_script:
 
