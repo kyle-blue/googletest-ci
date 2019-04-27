@@ -8,9 +8,6 @@ before_script:
 build test code:
     tags:
         - personal
-        - private
-        - shell
-        - specific
     stage: build
     script:     #Should turn these commands into a shell script
         - cd random_program_tests
@@ -25,6 +22,8 @@ build test code:
         expire_in: 1 week
 
 test program:
+    tags:
+        - personal
     stage: test
     dependencies:
         - build test code
