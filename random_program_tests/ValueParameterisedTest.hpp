@@ -29,9 +29,9 @@ public:
 INSTANTIATE_TEST_SUITE_P(oddStack,
                          StackPTest,
                          testing::Range(1, 10, 2));
-INSTANTIATE_TEST_SUITE_P(evenStack,
-                         StackPTest,
-                         testing::Range(2, 10, 2));
+//INSTANTIATE_TEST_SUITE_P(evenStack,
+//                         StackPTest,
+//                         testing::Range(2, 10, 2));
 
 
 #endif //GOOGLETEST_1_INTRO_VALUEPARAMETERISEDTEST_HPP

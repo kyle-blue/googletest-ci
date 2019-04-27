@@ -9,8 +9,7 @@ TEST_P(StackPTest, push){
 
     //Wierd ass test for odds and evens
     const bool IS_ODD = (stack.back() % 2);
-    EXPECT_TRUE(true);
-    //EXPECT_TRUE(IS_ODD) << stack.back() << ": should be an odd number. BUT ITS NOT!";
+    EXPECT_TRUE(IS_ODD) << stack.back() << ": should be an odd number. BUT ITS NOT!";
 }
 
 
