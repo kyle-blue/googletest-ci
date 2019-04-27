@@ -40,7 +40,7 @@ TEST(DatabaseTests, getAccountInfo_HasNoDataWhenFalse){
             .WillOnce(Return(false));
 
     //Use derived mock class instead of implementation (using polymorphism)
-    std::vector accountInfo = database.getAccountInfo(mdbAccess, "SomeUser", "SomePassword");
+    std::vector<std::string> accountInfo = database.getAccountInfo(mdbAccess, "SomeUser", "SomePassword");
 
     ASSERT_EQ(0, accountInfo.size()) << "Account info gathered despite incorrect details!";
 }
