@@ -17,7 +17,7 @@ build test code:
         - mkdir -p cmake-build-debug
         - cd cmake-build-debug
         - cmake ..
-        - make all
+        - make
     artifacts:
         paths:
             - random_program_tests/cmake-build-debug/random_program_tests
