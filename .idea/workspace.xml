@@ -109,7 +109,7 @@
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-2" />
-    <option name="width" value="1924" />
+    <option name="width" value="1918" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -126,7 +126,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../UNI/computer_science_year_1/Programming/Assignments/ChatBot" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -230,7 +230,7 @@
       <workItem from="1556347668392" duration="220000" />
       <workItem from="1556354219354" duration="715000" />
       <workItem from="1556359776853" duration="32000" />
-      <workItem from="1556360046715" duration="1302000" />
+      <workItem from="1556360046715" duration="1924000" />
     </task>
     <servers />
   </component>
@@ -267,18 +267,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106134000" />
+    <option name="totallyTimeSpent" value="106756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1924" height="1054" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26894343" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27321815" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27321815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
